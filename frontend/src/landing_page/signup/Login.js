@@ -50,7 +50,7 @@ const Login = () => {
   setTimeout(() => {
 
    window.location.href =
-  `http://localhost:3001?token=${data.token}&username=${encodeURIComponent(data.user.username)}`;
+  `https://zerodha-clone-qa42-five.vercel.app?token=${data.token}&username=${encodeURIComponent(data.user.username)}`;
 
   }, 1000);
 

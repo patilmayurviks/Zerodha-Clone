@@ -46,7 +46,7 @@ const Signup = () => {
   handleSuccess(message);
 
   setTimeout(() => {
-    window.location.href = "http://localhost:3001";
+    window.location.href = "https://zerodha-clone-qa42-five.vercel.app";
   }, 1000);
 } else {
   handleError(message);
